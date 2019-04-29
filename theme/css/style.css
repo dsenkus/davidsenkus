@@ -1,0 +1,310 @@
+/*---------------------------------------------------------------------------*/
+/* Globals                                                                   */
+/*---------------------------------------------------------------------------*/
+
+body {
+    font-family: Arial,sans-serif;
+    color: #333;
+}
+
+a {
+    color: #936665;
+    /* #894447; */
+    /* #1F3548; */
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+}
+
+a:hover {
+    color: #894447;
+}
+
+.container {
+    max-width: 630px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.container h1,h2,h3 {
+    color: #555;
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 700; 
+}
+
+.container p {
+    line-height: 1.5rem;
+    color: #555;
+}
+
+.message {
+    background: #eee;
+    color: #a9a9a9;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    text-shadow: 1px 1px 1px #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+.sep-line {
+    border-top: 2px solid #1F3548;
+    /* background: #894447; */
+    border-bottom: 2px solid #936665;
+    /* height: 6px; */
+}
+
+/*---------------------------------------------------------------------------*/
+/* Header                                                                    */
+/*---------------------------------------------------------------------------*/
+
+#header {
+    color: #333;
+    border-bottom: 1px solid #666;
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 700; 
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+
+#header h1 {
+    font-size: 1.2rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+#header a {
+    color: #333;
+    height: 3rem;
+    display: inline-block;
+    line-height: 3rem;
+    text-transform: uppercase;
+    padding: 0 1.25rem;
+}
+
+#header nav {
+    border-top: 1px solid #ccc;
+}
+
+#header nav.hidden {
+    display: none;
+}
+
+#header nav a {
+    display: block;
+}
+
+#header nav a.active {
+    background: #eee;
+}
+
+#menu-toggle {
+    cursor: pointer;
+    border: 0;
+    background: #fff;
+    height: 3rem;
+    padding: 0 1rem;
+    float: right;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Hero                                                                      */
+/*---------------------------------------------------------------------------*/
+
+#hero {
+    background: url(../images/wheat.png);
+    font-family: arial, sans-serif;
+    color: #8a8a8a;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#hero .about {
+    display: inline-block;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    background: rgba(10,10,10, 0.7);
+}
+
+#hero .about a {
+    color: #9a9a9a;
+    font-weight: bold;
+    transition: color .15s ease-in-out;
+}
+
+#hero .about a:hover {
+    color: #fff;
+}
+
+#hero .about a.color-react {
+    color: #61dafb;
+}
+
+#hero .about .linkedin img {
+    height: 1.1rem;
+    width: auto;
+    vertical-align: sub;
+}
+
+#hero .about h2 {
+    color: #cacaca;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    padding: 0;
+    margin: 0;
+}
+
+#hero .about p {
+    font-size: 1.1rem;
+    margin: 0.8rem 0 0 0;
+    padding: 0;
+}
+
+#hero .photo {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    border: 1px solid #000;
+}
+
+#tech-list {
+    background: #061D24;
+    text-align: center;
+    padding: 1rem 1rem 0.5rem;;
+}
+
+#tech-list a {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+#tech-list a.react img {
+    animation: react-logo-spin infinite 20s linear;
+}
+
+#tech-list img {
+    height: 2rem;
+    width: auto;
+}
+
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---------------------------------------------------------------------------*/
+/* Footer                                                                    */
+/*---------------------------------------------------------------------------*/
+
+#contentinfo {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #9a9a9a;
+    padding: 1rem 0;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Post List                                                                 */
+/*---------------------------------------------------------------------------*/
+
+#post-list {
+    padding: 0;
+    margin: 2rem 0 0;
+}
+
+#post-list li {
+    list-style-type: none;
+    padding: 0 0 2rem;
+    margin: 0 0;
+}
+#post-list li .entry-title {
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    padding: 0 0 0.5rem;
+    margin: 0;
+}
+#post-list li footer {
+    margin-bottom: 0.5rem;
+}
+#post-list li time {
+    font-size: 0.7rem;
+}
+#post-list li .entry-content p {
+    margin: 0 0 0.5rem;
+}
+    
+
+/*---------------------------------------------------------------------------*/
+/* Portfolio List                                                            */
+/*---------------------------------------------------------------------------*/
+
+.portfolio .item {
+    margin-bottom: 3rem;
+}
+
+.portfolio .item h3 {
+    border-bottom: 1px solid #9a9a9a;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.portfolio .item h3 span {
+    float: right;
+    color: #9a9a9a;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.portfolio .item .screenshot {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+/*---------------------------------------------------------------------------*/
+/* @media                                                                    */
+/*---------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+    #header {
+        display: flex;
+    }
+
+    #header h1 {
+        flex-grow: 1;
+    }
+
+    #header a {
+        display: inline-block;
+    }
+
+    #header nav a {
+        display: inline-block;
+        transition: background .15s ease-in-out;
+    }
+    #header a:hover {
+        background: #eee;
+    }
+
+    #header nav {
+        border-top: 0;
+    }
+
+    #header nav.hidden {
+        display: block;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+    #hero .about {
+        padding: 2rem;
+    }
+}

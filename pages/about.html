@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>David Senkus - About</title>
+    <meta charset="utf-8" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/theme/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+</head>
+
+<body id="index" class="home">
+    <header id="header">
+        <h1>
+            <a href="/">David Senkus <strong></strong></a>
+            <button id="menu-toggle">
+                <svg height="20px" version="1.1" viewBox="0 0 18 12" width="22px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#666666" id="Core" transform="translate(-87.000000, -342.000000)"><g id="menu" transform="translate(87.000000, 342.000000)"><path d="M0,12 L18,12 L18,10 L0,10 L0,12 L0,12 Z M0,7 L18,7 L18,5 L0,5 L0,7 L0,7 Z M0,0 L0,2 L18,2 L18,0 L0,0 L0,0 Z" id="Shape"/></g></g></g></svg>
+            </button>
+        </h1>
+        <nav id="header-menu" class="hidden">
+                <a href="https://www.github.com/dsenkus">Github</a>
+
+                    <a href="/pages/about.html"  class="active">About</a>
+                    <a href="/pages/portfolio.html" >Portfolio</a>
+
+        </nav>
+    </header><!-- /#header -->
+
+<div id="hero">
+    <img class="photo" src="/theme/images/bean.jpeg"/>
+    <div></div>
+    <div class="about">
+        <h2>Hello, my name is David Senkus.</h2>
+        <p>I'm Full Stack Web Developer and <strong><a href="https://reactjs.org/" class="color-react">React</a></strong> enthusiast.</p>
+        <p>Check out my most recent work on <a href="#">portfolio</a> page.</p>
+        <p>I'm available for hire, contact me via <a href="mailto:david.senkus@gmail.com">david.senkus@gmail.com</a> 
+        or <a href="https://www.linkedin.com/in/david-senkus-673058186/" class="linkedin"><img src="/theme/images/logos/linked_in.png"</p>
+    </div>
+</div>
+
+<div class="sep-line"></div>
+
+<div id="tech-list">
+    <a href="https://www.typescriptlang.org/"><img src="/theme/images/logos/typescript.svg"/></a>
+    <a href="https://reactjs.org/" class="react"><img src="/theme/images/logos/react2.svg"/></a>
+    <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="/theme/images/logos/js.png"/></a>
+    <a href="https://www.php.net/"><img src="/theme/images/logos/php.png"/></a>
+    <a href="https://www.python.org/"><img src="/theme/images/logos/python.png"/></a>
+    <a href="https://www.djangoproject.com/"><img src="/theme/images/logos/django.svg"/></a>
+</div>
+
+<div class="sep-line"></div>
+
+    <div class="container">
+    <h1>About</h1>
+    
+
+    <p>I am a seasoned software expert who has developed products for enterprise 
+clients such as CBS, Showtime, as well as many venture-backed businesses. 
+I specialize in building applications specific to the business needs of my
+clients. I have done work in software development, mobile app creation, 
+front-end/back-end web, database/server management, and graphic design.</p>
+<p>I'm specializing in following technologies: TypeScript/Javascript, React, PHP, Python, Django.</p>
+
+        <footer id="contentinfo" class="body">
+            <a href="https://davidsenkus.com">DAVID SENKUS</a> &copy; 2019.
+        </footer><!-- /#contentinfo -->
+    </div>
+    <script type="text/javascript">
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var menu = document.getElementById('header-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
